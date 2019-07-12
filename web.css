@@ -1,0 +1,99 @@
+.top1 {
+      background: #ccc;
+      padding: 5px;
+        padding-right: 20px;
+            text-align: center;
+    }
+
+    .block_with_table {
+      float: left;
+      padding: 5px;
+        padding-right: 20px; 
+        /*border: solid 1px black;*/
+        float: left; 
+        position: relative; 
+        top: 30px; 
+        left: 70px;
+
+    }
+
+    .block_with_ol {
+      background: #fc0; 
+        padding: 5px; 
+        /*border: solid 1px black;*/ 
+        float: left; 
+        position: relative; 
+        top: 10px; 
+        left: 80px; 
+        opacity: .6
+    }
+
+    .block_with_ul {
+      background: #4b0082;
+      float: left; 
+        padding: 5px; 
+        border: solid 1px black; 
+        float: left; 
+        position: relative; 
+        top: 100px; 
+        left: 0px;
+        opacity: .35;
+        color: white;
+        border-color: white;
+    }
+
+    .block_with_image {
+      width: 150px;
+      height: 150px;
+      animation: nev 5s alternate;
+}
+@keyframes nev{
+0%{
+  opacity: 0;
+  border-radius: 50%;
+}
+20%{
+  opacity: 0.2;
+  border-radius: 40%;
+}
+50%{
+  opacity: 0.5;
+  border-radius: 30%;
+}
+100%{
+  opacity: 1;
+  border-radius: 0;
+}
+
+    }
+
+    .block_empty {
+      background: red;
+      padding: 50px;
+
+    }
+
+    .block_with_form {
+      background: #800000;
+      float: left; 
+        padding: 5px; 
+        border: solid 1px black; 
+        float: left; 
+        position: relative; 
+        top: 120px; 
+        left: -180px;
+        color: black;
+    }
+  
+     .block-animation {
+          background-image: url(fon.jpg);
+          width: 130px;
+          height: 450px;
+transition: width 1s cubic-bezier(0, 0, 1, 1) 500ms;
+        }
+        
+        .block-animation:hover {
+          width: 100%;
+        }
+  
+
